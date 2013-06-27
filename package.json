@@ -1,0 +1,25 @@
+{
+  "name" : "foreverest",
+  "description" : "Schedule timeouts >24d",
+  "version" : "0.0.0",
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/juliangruber/foreverest.git"
+  },
+  "homepage": "https://github.com/juliangruber/foreverest",
+  "main" : "index.js",
+  "scripts" : {
+    "test" : "tap test/*.js"
+  },
+  "dependencies" : {},
+  "devDependencies" : {
+    "tap" : "*"
+  },
+  "keywords": ["settimeout","long","node","browser"],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
