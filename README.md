@@ -14,7 +14,7 @@ setTimeout(function () {
   console.log('oops, that should have been after 30d, but it was 1ms!');
 }, 30 * 24 * 60 * 60 * 1000);
 
-// this will work:
+// this will call after 30d:
 timeout(function () {
   console.log('after 30d');
 }, 30 * 24 * 60 * 60 * 1000);
