@@ -48,6 +48,7 @@ Timeout.prototype._schedule = function (dur) {
 
 Timeout.prototype._tick = function () {
   var now = +new Date;
+  var fn = this.fn;
 
   if (now >= this.dest) {
     fn();
