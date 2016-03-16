@@ -62,6 +62,6 @@ Timeout.prototype._tick = function () {
  */
 
 Timeout.prototype.clear = function () {
-  clearTimeout(self.to);
+  clearTimeout(this.to);
 };
 
