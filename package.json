@@ -13,7 +13,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tap": "*"
+    "tap": ">=8.0.1"
   },
   "keywords": [
     "settimeout",
